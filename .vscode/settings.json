@@ -1,0 +1,20 @@
+{
+    "idf.adapterTargetName": "esp32",
+    "idf.portWin": "COM4",
+    "files.associations": {
+        "*.cjson": "jsonc",
+        "*.wxss": "css",
+        "*.wxs": "javascript",
+        "shell_x": "shellscript",
+        "disp_driver.h": "c",
+        "lv_port_disp.h": "c",
+        "lv_demo_music.h": "c",
+        "lvgl.h": "c",
+        "lv_demos.h": "c",
+        "lv_fs_if.h": "c"
+    },
+    "idf.openOcdConfigs": [
+        "board/esp32-wrover-kit-3.3v.cfg"
+    ],
+    "idf.flashType": "UART"
+}
